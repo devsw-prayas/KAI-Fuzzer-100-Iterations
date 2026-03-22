@@ -42,7 +42,7 @@ mutation chain steps, destabilizer firing, compiler results, iteration rate.
 
 ## How it works
 
-Kai starts from a minimal synthetic seed and applies depth-8 mutation chains.
+Kai starts from a minimal synthetic seed and applies depth-5 mutation chains.
 Spatial Bidirectional Jitter (SBJ) distributes mutations across the entire
 program tree using 2D centroid repulsion in (depth, siblingIndex) space —
 preventing the clustering behaviour that makes most structure-aware fuzzers
